@@ -5,6 +5,24 @@ using std::cin;
 using std::cout;
 using std::endl;
 
+Medicine::Medicine()
+{
+	strcpy_s(this->name, 32, "Dafault");
+	setMg(200);
+	setPrice(1);
+}
+Medicine::Medicine(int mg)
+{
+	setMg(mg);
+}
+
+Medicine::Medicine(const char newName[32], int mg, double price)
+{
+	strcpy_s(this->name, 32,newName);
+	setMg(mg);
+	setPrice(price);
+}
+
 void Medicine::setName(char newName[32])
 {
 	strcpy_s(this->name, 32, newName);

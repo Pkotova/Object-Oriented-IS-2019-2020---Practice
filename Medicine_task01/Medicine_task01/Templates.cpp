@@ -3,5 +3,5 @@
 template<typename T>
 T larger(T fieldA, T fieldB)
 {
-	return operator>(fieldA > fieldB) ? fieldA : fieldB;
+	return (fieldA < fieldB) ? fieldA : fieldB;
 }

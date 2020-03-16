@@ -9,6 +9,12 @@ private:
 
 public:
 
+//default constructor
+	Medicine();
+//general purpose constructor
+	Medicine(const char newName[32], int mg, double price);
+	Medicine(int mg);
+
 	void setName(char newName[32]);
 	const char* getName() const;
 

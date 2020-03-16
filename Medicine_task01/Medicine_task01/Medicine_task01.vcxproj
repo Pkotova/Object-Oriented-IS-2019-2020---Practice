@@ -150,7 +150,6 @@
     <ClCompile Include="Medicine.cpp" />
     <ClCompile Include="Medicine_task01.cpp" />
     <ClCompile Include="Templates.cpp" />
-    <ClCompile Include="Tools.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Medicine.h" />
