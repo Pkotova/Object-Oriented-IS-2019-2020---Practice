@@ -15,8 +15,6 @@ int main()
     Medicine* m1 = new Medicine(450);
    
     m1->setPrice(4.5);
-    cout << m1->getPrice();
-
-    Medicine* m3 = new Medicine("Vit C", 50, 5.60);
+     m1->output();
 }
 
