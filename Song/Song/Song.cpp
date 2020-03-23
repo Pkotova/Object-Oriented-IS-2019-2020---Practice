@@ -90,7 +90,7 @@ int Song::getViews() const
 	return this->views;
 }
 
-void Song::sort(Song* songs, int size)
+void sort(Song* songs, int size)
 {
 	for (size_t i = 0; i < size - 1 ; i++)
 	{
@@ -126,7 +126,7 @@ Song& Song::operator=(const Song& otherSong)
 	return *this;
 }
 
-Song& Song::hasTheMostViews(Song* songs, int size)
+Song& hasTheMostViews(Song* songs, int size)
 {
 	//this->sort(songs, size);
 	//return songs[0];
@@ -158,7 +158,7 @@ ostream& operator<<(ostream& out, const Song& song)
 	return out;
 }
 
-istream& operator>>(istream& in, const Song& song)
+istream& operator>>(istream& in, Song& song)
 {
 	std::cout << "ID: ";
 	in >> song.id;
@@ -172,11 +172,4 @@ istream& operator>>(istream& in, const Song& song)
 	in >> song.views;
 
 	return in;
-}
-
-// -----------------------------------
-// out of the class
-
-void swap(Song& s1, Song& s2) {
-
 }

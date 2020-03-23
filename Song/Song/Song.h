@@ -38,13 +38,13 @@ public:
 	int getViews()const;
 
 	
-	void sort(Song* songs, int size);
+	friend void sort(Song* songs, int size);
 	int operator-(Song& otherSong);
 	Song& operator=(const Song& otherSong);
-	Song& hasTheMostViews(Song* songs, int size);
+	friend Song& hasTheMostViews(Song* songs, int size);
 
 	friend ostream& operator<<(ostream& out,const Song& song);
-	friend istream& operator>>(istream& in, const Song& song);
+	friend istream& operator>>(istream& in,  Song& song);
 
 };
 
