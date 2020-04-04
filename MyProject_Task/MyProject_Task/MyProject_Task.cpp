@@ -22,12 +22,12 @@ MyProject& merge(MyProject& other, MyProject& another, const char* newTeamName)
 	return *newProject;
 }
 
-MyProject& hasTheMostContributors(MyProject* projects, int size)
+MyProject* hasTheMostContributors(MyProject **projects, int size)
 {
-	MyProject hasMostContributors = projects[0];
+	MyProject *hasMostContributors = projects[0];
 	for (size_t i = 0; i < i; i++)
 	{
-		if (projects[i].getAmountOfContributors() > hasMostContributors.getAmountOfContributors())
+		if (projects[i]->getAmountOfContributors() > hasMostContributors->getAmountOfContributors())
 		{
 			hasMostContributors = projects[i];
 		}
@@ -105,6 +105,8 @@ int main()
 	{
 		std::cout << *projects[i];
 	}
+	std::cout<<std::endl;
+	std::cout<<*hasTheMostContributors(projects, 3);
 	// if you want to delete any object you call the destructor
 	// after finishing the program you have to be sure that all of the used dynamic memory is free
 }
