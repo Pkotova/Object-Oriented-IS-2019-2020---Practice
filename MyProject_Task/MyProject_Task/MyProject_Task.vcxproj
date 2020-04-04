@@ -149,12 +149,10 @@
   <ItemGroup>
     <ClCompile Include="MyProject.cpp" />
     <ClCompile Include="MyProject_Task.cpp" />
-    <ClCompile Include="Tools.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyProject.h" />
     <ClInclude Include="Enumerators.h" />
-    <ClInclude Include="Tools.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
