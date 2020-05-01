@@ -1,0 +1,567 @@
+Name: Daniel Shahanski
+Age: 21
+Languages: 
+Name: Java Script
+Year: 1995
+Author: Brendan Eich
+Paradigm: event - driven, functional, imperative
+Hello World code: script>	alert('Hello, world!');< / script>
+Time: 20
+Name: GO
+Year: 2009
+Author: Robert Griesemer
+Paradigm: Multi Paradigm
+Hello World code: package main import fmt func main() {fmt.Println(hello world)}
+Time: 30
+Name: Swift
+Year: 2014
+Author: Chris Lattner
+Paradigm: Multi paradigm
+Hello World code: Hello, World! Program import Swift print Hello, World!)
+Time: 50
+Name: Dimitar Atanasov
+Age: 21
+Languages: 
+Name: C-sharp
+Year: 2000
+Author: Microsoft
+Paradigm: Structured, imperative, object - oriented, event - driven task - driven, functional, generic, reflective, concurrent
+Hello World code: Console.WriteLine(Hello World!);
+Time: 10
+Name: PHP
+Year: 1995
+Author: Rasmus Lerdorf
+Paradigm: Multi paradigm
+Hello World code: <?php echo '<p>Hello World</p>'; ?>
+Time: 20
+Name: Scala
+Year: 2004
+Author: Martin Odersky
+Paradigm: Multi Paradigm
+Hello World code: object HelloWorld extends App{ println(Hello, World!)}
+Time: 40
+Name: Petya Kotova
+Age: 20
+Languages: 
+Name: Java
+Year: 1995
+Author: James Gosling
+Paradigm: Multi paradigm
+Hello World code: public class HelloWorldApp { public static void main(String[] args) {System.out.println(Hello World!);}
+Time: 10
+Name: Python
+Year: 1990
+Author: Guido van Rossum
+Paradigm: Multi - paradigm
+Hello World code: print(Hello, World!)
+Time: 40
+Name: C-sharp
+Year: 2000
+Author: Microsoft
+Paradigm: Structured, imperative, object - oriented, event - driven task - driven, functional, generic, reflective, concurrent
+Hello World code: Console.WriteLine(Hello World!);
+Time: 10
+Name: Daniel Shahanski
+Age: 21
+Languages: 
+Name: Java Script
+Year: 1995
+Author: Brendan Eich
+Paradigm: event - driven, functional, imperative
+Hello World code: script>	alert('Hello, world!');< / script>
+Time: 20
+Name: GO
+Year: 2009
+Author: Robert Griesemer
+Paradigm: Multi Paradigm
+Hello World code: package main import fmt func main() {fmt.Println(hello world)}
+Time: 30
+Name: Swift
+Year: 2014
+Author: Chris Lattner
+Paradigm: Multi paradigm
+Hello World code: Hello, World! Program import Swift print Hello, World!)
+Time: 50
+Name: Dimitar Atanasov
+Age: 21
+Languages: 
+Name: C-sharp
+Year: 2000
+Author: Microsoft
+Paradigm: Structured, imperative, object - oriented, event - driven task - driven, functional, generic, reflective, concurrent
+Hello World code: Console.WriteLine(Hello World!);
+Time: 10
+Name: PHP
+Year: 1995
+Author: Rasmus Lerdorf
+Paradigm: Multi paradigm
+Hello World code: <?php echo '<p>Hello World</p>'; ?>
+Time: 20
+Name: Scala
+Year: 2004
+Author: Martin Odersky
+Paradigm: Multi Paradigm
+Hello World code: object HelloWorld extends App{ println(Hello, World!)}
+Time: 40
+Name: Petya Kotova
+Age: 20
+Languages: 
+Name: Java
+Year: 1995
+Author: James Gosling
+Paradigm: Multi paradigm
+Hello World code: public class HelloWorldApp { public static void main(String[] args) {System.out.println(Hello World!);}
+Time: 10
+Name: Python
+Year: 1990
+Author: Guido van Rossum
+Paradigm: Multi - paradigm
+Hello World code: hello
+Time: 40
+Name: C-sharp
+Year: 2000
+Author: Microsoft
+Paradigm: Structured, imperative, object - oriented, event - driven task - driven, functional, generic, reflective, concurrent
+Hello World code: Console.WriteLine(Hello World!);
+Time: 10
+Name: Daniel Shahanski
+Age: 21
+Languages: 
+Name: Java Script
+Year: 1995
+Author: Brendan Eich
+Paradigm: event - driven, functional, imperative
+Hello World code: script>	alert('Hello, world!');< / script>
+Time: 20
+Name: GO
+Year: 2009
+Author: Robert Griesemer
+Paradigm: Multi Paradigm
+Hello World code: package main import fmt func main() {fmt.Println(hello world)}
+Time: 30
+Name: Swift
+Year: 2014
+Author: Chris Lattner
+Paradigm: Multi paradigm
+Hello World code: Hello, World! Program import Swift print Hello, World!)
+Time: 50
+Name: Dimitar Atanasov
+Age: 21
+Languages: 
+Name: C-sharp
+Year: 2000
+Author: Microsoft
+Paradigm: Structured, imperative, object - oriented, event - driven task - driven, functional, generic, reflective, concurrent
+Hello World code: Console.WriteLine(Hello World!);
+Time: 10
+Name: PHP
+Year: 1995
+Author: Rasmus Lerdorf
+Paradigm: Multi paradigm
+Hello World code: <?php echo '<p>Hello World</p>'; ?>
+Time: 20
+Name: Scala
+Year: 2004
+Author: Martin Odersky
+Paradigm: Multi Paradigm
+Hello World code: object HelloWorld extends App{ println(Hello, World!)}
+Time: 40
+Name: Petya Kotova
+Age: 20
+Languages: 
+Name: Java
+Year: 1995
+Author: James Gosling
+Paradigm: Multi paradigm
+Hello World code: public class HelloWorldApp { public static void main(String[] args) {System.out.println(Hello World!);}
+Time: 10
+Name: Python
+Year: 1990
+Author: Guido van Rossum
+Paradigm: Multi - paradigm
+Hello World code: print(Hello, World!)
+Time: 40
+Name: C-sharp
+Year: 2000
+Author: Microsoft
+Paradigm: Structured, imperative, object - oriented, event - driven task - driven, functional, generic, reflective, concurrent
+Hello World code: Console.WriteLine(Hello World!);
+Time: 10
+Name: Daniel Shahanski
+Age: 21
+Languages: 
+Name: Java Script
+Year: 1995
+Author: Brendan Eich
+Paradigm: event - driven, functional, imperative
+Hello World code: script>	alert('Hello, world!');< / script>
+Time: 20
+Name: GO
+Year: 2009
+Author: Robert Griesemer
+Paradigm: Multi Paradigm
+Hello World code: package main import fmt func main() {fmt.Println(hello world)}
+Time: 30
+Name: Swift
+Year: 2014
+Author: Chris Lattner
+Paradigm: Multi paradigm
+Hello World code: Hello, World! Program import Swift print Hello, World!)
+Time: 50
+Name: Dimitar Atanasov
+Age: 21
+Languages: 
+Name: C-sharp
+Year: 2000
+Author: Microsoft
+Paradigm: Structured, imperative, object - oriented, event - driven task - driven, functional, generic, reflective, concurrent
+Hello World code: Console.WriteLine(Hello World!);
+Time: 10
+Name: PHP
+Year: 1995
+Author: Rasmus Lerdorf
+Paradigm: Multi paradigm
+Hello World code: <?php echo '<p>Hello World</p>'; ?>
+Time: 20
+Name: Scala
+Year: 2004
+Author: Martin Odersky
+Paradigm: Multi Paradigm
+Hello World code: object HelloWorld extends App{ println(Hello, World!)}
+Time: 40
+Name: Petya Kotova
+Age: 20
+Languages: 
+Name: Java
+Year: 1995
+Author: James Gosling
+Paradigm: Multi paradigm
+Hello World code: public class HelloWorldApp { public static void main(String[] args) {System.out.println(Hello World!);}
+Time: 10
+Name: Python
+Year: 1990
+Author: Guido van Rossum
+Paradigm: Multi - paradigm
+Hello World code: print(Hello, World!)
+Time: 40
+Name: C-sharp
+Year: 2000
+Author: Microsoft
+Paradigm: Structured, imperative, object - oriented, event - driven task - driven, functional, generic, reflective, concurrent
+Hello World code: Console.WriteLine(Hello World!);
+Time: 10
+Name: Daniel Shahanski
+Age: 21
+Languages: 
+Name: Java Script
+Year: 1995
+Author: Brendan Eich
+Paradigm: event - driven, functional, imperative
+Hello World code: script>	alert('Hello, world!');< / script>
+Time: 20
+Name: GO
+Year: 2009
+Author: Robert Griesemer
+Paradigm: Multi Paradigm
+Hello World code: package main import fmt func main() {fmt.Println(hello world)}
+Time: 30
+Name: Swift
+Year: 2014
+Author: Chris Lattner
+Paradigm: Multi paradigm
+Hello World code: Hello, World! Program import Swift print Hello, World!)
+Time: 50
+Name: Dimitar Atanasov
+Age: 21
+Languages: 
+Name: C-sharp
+Year: 2000
+Author: Microsoft
+Paradigm: Structured, imperative, object - oriented, event - driven task - driven, functional, generic, reflective, concurrent
+Hello World code: Console.WriteLine(Hello World!);
+Time: 10
+Name: PHP
+Year: 1995
+Author: Rasmus Lerdorf
+Paradigm: Multi paradigm
+Hello World code: <?php echo '<p>Hello World</p>'; ?>
+Time: 20
+Name: Scala
+Year: 2004
+Author: Martin Odersky
+Paradigm: Multi Paradigm
+Hello World code: object HelloWorld extends App{ println(Hello, World!)}
+Time: 40
+Name: Petya Kotova
+Age: 20
+Languages: 
+Name: Java
+Year: 1995
+Author: James Gosling
+Paradigm: Multi paradigm
+Hello World code: public class HelloWorldApp { public static void main(String[] args) {System.out.println(Hello World!);}
+Time: 10
+Name: Python
+Year: 1990
+Author: Guido van Rossum
+Paradigm: Multi - paradigm
+Hello World code: print(Hello, World!)
+Time: 40
+Name: C-sharp
+Year: 2000
+Author: Microsoft
+Paradigm: Structured, imperative, object - oriented, event - driven task - driven, functional, generic, reflective, concurrent
+Hello World code: Console.WriteLine(Hello World!);
+Time: 10
+Name: Daniel Shahanski
+Age: 21
+Languages: 
+Name: Java Script
+Year: 1995
+Author: Brendan Eich
+Paradigm: event - driven, functional, imperative
+Hello World code: script>	alert('Hello, world!');< / script>
+Time: 20
+Name: GO
+Year: 2009
+Author: Robert Griesemer
+Paradigm: Multi Paradigm
+Hello World code: package main import fmt func main() {fmt.Println(hello world)}
+Time: 30
+Name: Swift
+Year: 2014
+Author: Chris Lattner
+Paradigm: Multi paradigm
+Hello World code: Hello, World! Program import Swift print Hello, World!)
+Time: 50
+Name: Dimitar Atanasov
+Age: 21
+Languages: 
+Name: C-sharp
+Year: 2000
+Author: Microsoft
+Paradigm: Structured, imperative, object - oriented, event - driven task - driven, functional, generic, reflective, concurrent
+Hello World code: Console.WriteLine(Hello World!);
+Time: 10
+Name: PHP
+Year: 1995
+Author: Rasmus Lerdorf
+Paradigm: Multi paradigm
+Hello World code: <?php echo '<p>Hello World</p>'; ?>
+Time: 20
+Name: Scala
+Year: 2004
+Author: Martin Odersky
+Paradigm: Multi Paradigm
+Hello World code: object HelloWorld extends App{ println(Hello, World!)}
+Time: 40
+Name: Petya Kotova
+Age: 20
+Languages: 
+Name: Java
+Year: 1995
+Author: James Gosling
+Paradigm: Multi paradigm
+Hello World code: public class HelloWorldApp { public static void main(String[] args) {System.out.println(Hello World!);}
+Time: 10
+Name: Python
+Year: 1990
+Author: Guido van Rossum
+Paradigm: Multi - paradigm
+Hello World code: print(Hello, World!)
+Time: 40
+Name: C-sharp
+Year: 2000
+Author: Microsoft
+Paradigm: Structured, imperative, object - oriented, event - driven task - driven, functional, generic, reflective, concurrent
+Hello World code: Console.WriteLine(Hello World!);
+Time: 10
+Name: Daniel Shahanski
+Age: 21
+Languages: 
+Name: Java Script
+Year: 1995
+Author: Brendan Eich
+Paradigm: event - driven, functional, imperative
+Hello World code: script>	alert('Hello, world!');< / script>
+Time: 20
+Name: GO
+Year: 2009
+Author: Robert Griesemer
+Paradigm: Multi Paradigm
+Hello World code: package main import fmt func main() {fmt.Println(hello world)}
+Time: 30
+Name: Swift
+Year: 2014
+Author: Chris Lattner
+Paradigm: Multi paradigm
+Hello World code: Hello, World! Program import Swift print Hello, World!)
+Time: 50
+Name: Dimitar Tonchev
+Age: 21
+Languages: 
+Name: C-sharp
+Year: 2000
+Author: Microsoft
+Paradigm: Structured, imperative, object - oriented, event - driven task - driven, functional, generic, reflective, concurrent
+Hello World code: Console.WriteLine(Hello World!);
+Time: 10
+Name: PHP
+Year: 1995
+Author: Rasmus Lerdorf
+Paradigm: Multi paradigm
+Hello World code: <?php echo '<p>Hello World</p>'; ?>
+Time: 20
+Name: Scala
+Year: 2004
+Author: Martin Odersky
+Paradigm: Multi Paradigm
+Hello World code: object HelloWorld extends App{ println(Hello, World!)}
+Time: 40
+Name: Petya Kotova
+Age: 20
+Languages: 
+Name: Java
+Year: 1995
+Author: James Gosling
+Paradigm: Multi paradigm
+Hello World code: public class HelloWorldApp { public static void main(String[] args) {System.out.println(Hello World!);}
+Time: 10
+Name: Python
+Year: 1990
+Author: Guido van Rossum
+Paradigm: Multi - paradigm
+Hello World code: print(Hello, World!)
+Time: 40
+Name: C-sharp
+Year: 2000
+Author: Microsoft
+Paradigm: Structured, imperative, object - oriented, event - driven task - driven, functional, generic, reflective, concurrent
+Hello World code: Console.WriteLine(Hello World!);
+Time: 10
+Name: Daniel Shahanski
+Age: 21
+Languages: 
+Name: Java Script
+Year: 1995
+Author: Brendan Eich
+Paradigm: event - driven, functional, imperative
+Hello World code: script>	alert('Hello, world!');< / script>
+Time: 20
+Name: GO
+Year: 2009
+Author: Robert Griesemer
+Paradigm: Multi Paradigm
+Hello World code: package main import fmt func main() {fmt.Println(hello world)}
+Time: 30
+Name: Swift
+Year: 2014
+Author: Chris Lattner
+Paradigm: Multi paradigm
+Hello World code: Hello, World! Program import Swift print Hello, World!)
+Time: 50
+Name: Dimitar Tonchev
+Age: 21
+Languages: 
+Name: C-sharp
+Year: 2000
+Author: Microsoft
+Paradigm: Structured, imperative, object - oriented, event - driven task - driven, functional, generic, reflective, concurrent
+Hello World code: Console.WriteLine(Hello World!);
+Time: 10
+Name: PHP
+Year: 1995
+Author: Rasmus Lerdorf
+Paradigm: Multi paradigm
+Hello World code: <?php echo '<p>Hello World</p>'; ?>
+Time: 20
+Name: Scala
+Year: 2004
+Author: Martin Odersky
+Paradigm: Multi Paradigm
+Hello World code: object HelloWorld extends App{ println(Hello, World!)}
+Time: 40
+Name: Petya Kotova
+Age: 20
+Languages: 
+Name: Java
+Year: 1995
+Author: James Gosling
+Paradigm: Multi paradigm
+Hello World code: public class HelloWorldApp { public static void main(String[] args) {System.out.println(Hello World!);}
+Time: 10
+Name: Python
+Year: 1990
+Author: Guido van Rossum
+Paradigm: Multi - paradigm
+Hello World code: print(Hello, World!)
+Time: 40
+Name: C-sharp
+Year: 2000
+Author: Microsoft
+Paradigm: Structured, imperative, object - oriented, event - driven task - driven, functional, generic, reflective, concurrent
+Hello World code: Console.WriteLine(Hello World!);
+Time: 10
+Name: Daniel Shahanski
+Age: 21
+Languages: 
+Name: Java Script
+Year: 1995
+Author: Brendan Eich
+Paradigm: event - driven, functional, imperative
+Hello World code: script>	alert('Hello, world!');< / script>
+Time: 20
+Name: GO
+Year: 2009
+Author: Robert Griesemer
+Paradigm: Multi Paradigm
+Hello World code: package main import fmt func main() {fmt.Println(hello world)}
+Time: 30
+Name: Swift
+Year: 2014
+Author: Chris Lattner
+Paradigm: Multi paradigm
+Hello World code: Hello, World! Program import Swift print Hello, World!)
+Time: 50
+Name: Dimitar Tonchev
+Age: 21
+Languages: 
+Name: C-sharp
+Year: 2000
+Author: Microsoft
+Paradigm: Structured, imperative, object - oriented, event - driven task - driven, functional, generic, reflective, concurrent
+Hello World code: Console.WriteLine(Hello World!);
+Time: 10
+Name: PHP
+Year: 1995
+Author: Rasmus Lerdorf
+Paradigm: Multi paradigm
+Hello World code: <?php echo '<p>Hello World</p>'; ?>
+Time: 20
+Name: Scala
+Year: 2004
+Author: Martin Odersky
+Paradigm: Multi Paradigm
+Hello World code: object HelloWorld extends App{ println(Hello, World!)}
+Time: 40
+Name: Petya Kotova
+Age: 20
+Languages: 
+Name: Java
+Year: 1995
+Author: James Gosling
+Paradigm: Multi paradigm
+Hello World code: public class HelloWorldApp { public static void main(String[] args) {System.out.println(Hello World!);}
+Time: 10
+Name: Python
+Year: 1990
+Author: Guido van Rossum
+Paradigm: Multi - paradigm
+Hello World code: print(Hello, World!)
+Time: 40
+Name: C-sharp
+Year: 2000
+Author: Microsoft
+Paradigm: Structured, imperative, object - oriented, event - driven task - driven, functional, generic, reflective, concurrent
+Hello World code: Console.WriteLine(Hello World!);
+Time: 10
