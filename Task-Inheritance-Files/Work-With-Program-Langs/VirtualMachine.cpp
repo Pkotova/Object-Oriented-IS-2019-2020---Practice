@@ -57,6 +57,11 @@ const char* VirtualMachine::getVirtualMachine() const
 	return this->virtualMachine;
 }
 
+VirtualMachine* VirtualMachine::clone() const
+{
+	return new VirtualMachine(*this);
+}
+
 std::istream& operator>>(std::istream& in, VirtualMachine& current)
 {
 	char input[512];

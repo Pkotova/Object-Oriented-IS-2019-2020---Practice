@@ -1,13 +1,13 @@
 #include "User.h"
 #include<fstream>
-
+#include<cstring>
 void User::resizeUp()
 {
 	this->capacity *= 2;
-	ProgrammingLanguage* temp = new ProgrammingLanguage[this->capacity];
+	ProgrammingLanguage** temp = new ProgrammingLanguage*[this->capacity];
 	for (size_t i = 0; i < this->size; i++)
 	{
-		temp[i] = this->languages[i];
+		temp[i] = this->languages[i]->clone(); //deep copy
 	}
 
 	destroy();
@@ -17,13 +17,12 @@ void User::resizeUp()
 void User::resizeDown()
 {
 	this->capacity /= 2;
-	//8 -> 4
 	if (this->size < this->capacity)
 	{
-		ProgrammingLanguage* temp = new ProgrammingLanguage[this->capacity];
+		ProgrammingLanguage** temp = new ProgrammingLanguage*[this->capacity];
 		for (size_t i = 0; i < this->size; i++)
 		{
-			temp[i] = this->languages[i];
+			temp[i] = this->languages[i]->clone();
 		}
 
 		delete[]languages;
@@ -55,7 +54,7 @@ User::User() : name(nullptr),filepath(nullptr)
 	setFilePath("users.txt");
 	setSize(0);
 	setCapacity(8);
-	this->languages = new ProgrammingLanguage[this->capacity];
+	this->languages = new ProgrammingLanguage*[this->capacity];
 }
 
 User::User(const User& other)
@@ -70,10 +69,10 @@ User::User(const char* newName, size_t newAge)
 	setFilePath("users.txt");
 	setSize(0);
 	setCapacity(8);
-	this->languages = new ProgrammingLanguage[this->capacity];
+	this->languages = new ProgrammingLanguage*[this->capacity];
 }
 
-User::User(const char* newName, size_t newAge, ProgrammingLanguage* newProgrammingLanguages, const size_t& newSize, const size_t& newCapacity, const char* newFilepath)
+User::User(const char* newName, size_t newAge, ProgrammingLanguage** newProgrammingLanguages, const size_t& newSize, const size_t& newCapacity, const char* newFilepath)
 {
 	setName(newName);
 	setAge(newAge);
@@ -122,12 +121,12 @@ size_t User::getAge() const
 	return this->age;
 }
 
-void User::setProgrammingLanguages(ProgrammingLanguage* languages)
+void User::setProgrammingLanguages(ProgrammingLanguage** languages)
 {
 	if (languages != nullptr)
 	{
 		delete[] this->languages;
-		this->languages = new ProgrammingLanguage[this->capacity];
+		this->languages = new ProgrammingLanguage*[this->capacity];
 		for (size_t i = 0; i < size; i++)
 		{
 			this->languages[i] = languages[i];
@@ -136,7 +135,7 @@ void User::setProgrammingLanguages(ProgrammingLanguage* languages)
 	}
 }
 
-ProgrammingLanguage* User::getProgrammingLanguages() const
+ProgrammingLanguage** User::getProgrammingLanguages() const
 {
 	return this->languages;
 }
@@ -187,7 +186,7 @@ void User::addLanguage(const ProgrammingLanguage &language)
 	{
 		resizeUp();
 	}
-	this->languages[size] = language;
+	this->languages[size] = language.clone();
 	size++;
 }
 
@@ -196,14 +195,14 @@ void User::removeLanguage(const char* languageName)
 	size_t index = 0;
 	for (size_t i = 0; i < this->size; i++)
 	{
-		if (strcmp(this->languages[i].getName(),languageName) == 0)
+		if (strcmp(languages[i]->getName(),languageName) == 0)
 		{
 			index = i;
 		}
 	}
 	for (size_t i = index; i < this->size - 1; i++)
 	{
-		this->languages[i] = this->languages[i + 1];
+		this->languages[i] = this->languages[i + 1]->clone();
 	}
 	size--;
 	resizeDown();
@@ -214,7 +213,7 @@ int User::calculateTime() const
 	int time = 0;
 	for (size_t i = 0; i < size; i++)
 	{
-		time += languages[i].getTime();
+		time += languages[i]->getTime();
 	}
 	return time;
 }
@@ -228,10 +227,33 @@ void User::save()
 		<< "Languages: " << std::endl;
 	for (size_t i = 0; i < this->size; i++)
 	{
-		out << this->languages[i];
+		out << *this->languages[i];
 	}
 
 	out.close();
+}
+
+void User::read()
+{
+	std::ifstream in;
+	in.open(this->filepath);
+	User* user = new User();
+	char line[256];
+
+	if (in.is_open())
+	{
+		if (!in.eof())
+		{
+			in.getline(line,256);
+			user->setName(line);
+			std::cout << user->name;
+		}
+	}
+	else
+	{
+		std::cout << "ERROR!" << std::endl;
+	}
+	in.close();
 }
 
 std::istream& operator>>(std::istream& in, User& current)
@@ -256,7 +278,7 @@ std::ostream& operator<<(std::ostream& out, const User& current)
 		<< "Languages: " << std::endl;
 	for (size_t i = 0; i < current.size; i++)
 	{
-		out << current.languages[i];
+		out <<* current.languages[i];
 	}
 	out << "Filepath: " << current.filepath << std::endl;
 	return out;

@@ -23,6 +23,8 @@ public:
 	void setlastVersion(const char* newlastVersion);
 	const char* getlastVersion()const;
 
+	Compiled* clone() const override;
+
 	friend std::istream& operator>>(std::istream& in, Compiled& current);
 	friend std::ostream& operator<<(std::ostream& out, const Compiled& current);
 

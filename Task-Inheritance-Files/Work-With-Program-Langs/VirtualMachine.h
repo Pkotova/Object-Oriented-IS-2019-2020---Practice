@@ -13,10 +13,12 @@ public:
 		const char* newParadigm, const char* newHelloWorld,
 		size_t newTime, const char* newVirtualMachine);
 	VirtualMachine& operator=(const VirtualMachine& other);
-	~VirtualMachine();
+	~VirtualMachine() override;
 
 	void setVirualMachine(const char* newVirtualMachine);
 	const char* getVirtualMachine()const;
+
+	VirtualMachine* clone() const override;
 
 	friend std::istream& operator>>(std::istream& in, VirtualMachine& current);
 	friend std::ostream& operator<<(std::ostream& out, const VirtualMachine& current);

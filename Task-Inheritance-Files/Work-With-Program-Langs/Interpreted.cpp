@@ -57,6 +57,11 @@ const char* Interpreted::getType() const
 	return this->type;
 }
 
+Interpreted* Interpreted::clone() const
+{
+	return new Interpreted(*this);
+}
+
 std::istream& operator>>(std::istream& in, Interpreted& current)
 {
 	char input[512];

@@ -5,7 +5,7 @@ class User
 private:
 	char* name;
 	size_t age;
-	ProgrammingLanguage* languages;
+	ProgrammingLanguage** languages;
 
 	char* filepath;
 
@@ -23,7 +23,7 @@ public:
 	User(const User& other);
 	User(const char* newName, size_t newAge);
 	User(const char* newName, size_t newAge, 
-		ProgrammingLanguage* newProgrammingLanguages,
+		ProgrammingLanguage** newProgrammingLanguages,
 		const size_t& newSize, const size_t& newCapacity, const char* newFilepath);
 	User& operator=(const User& other);
 	~User();
@@ -34,8 +34,8 @@ public:
 	void setAge(size_t newAge);
 	size_t getAge()const;
 
-	void setProgrammingLanguages(ProgrammingLanguage* languages);
-	ProgrammingLanguage* getProgrammingLanguages()const;
+	void setProgrammingLanguages(ProgrammingLanguage** languages);
+	ProgrammingLanguage** getProgrammingLanguages()const;
 
 	void setFilePath(const char* filepath);
 	const char* getFilepath()const;
@@ -57,5 +57,6 @@ public:
 	friend std::ostream& operator<<(std::ostream& out, const User& current);
 
 	void save();
+	void read();
 };
 

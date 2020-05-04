@@ -75,6 +75,11 @@ const char* Compiled::getlastVersion() const
 	return this->lastVersion;
 }
 
+Compiled* Compiled::clone() const
+{
+	return new Compiled(*this);
+}
+
 std::istream& operator>>(std::istream& in, Compiled& current)
 {
 	char input[512];

@@ -18,6 +18,8 @@ public:
 	void setType(const char* newType);
 	const char* getType()const;
 
+	Interpreted* clone() const override;
+
 	friend std::istream& operator>>(std::istream& in, Interpreted& current);
 	friend std::ostream& operator<<(std::ostream& out, const Interpreted& current);
 };

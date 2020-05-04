@@ -3,6 +3,7 @@
 #include"VirtualMachine.h"
 #include"Interpreted.h"
 #include"User.h"
+
 int main()
 {
 //Compiled programming languages
@@ -60,4 +61,6 @@ int main()
 	daniel.save();
 	dimitar.save();
 	petya.save();
+
+	daniel.read();
 }

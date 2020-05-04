@@ -21,8 +21,8 @@ public:
 	ProgrammingLanguage(const char* newName, size_t newYear, const char* newAuthor, 
 						const char* newParadigm, const char* newHelloWorld,
 						size_t newTime);
-	ProgrammingLanguage& operator= (const ProgrammingLanguage other);
-	~ProgrammingLanguage();
+	ProgrammingLanguage& operator= (const ProgrammingLanguage& other);
+	virtual ~ProgrammingLanguage() = 0;
 
 	void setName(const char* newName);
 	const char* getName()const;
@@ -43,6 +43,8 @@ public:
 	size_t getTime()const;
 
 	void edit(const char* newCode);
+
+	virtual ProgrammingLanguage* clone() const = 0;
 
 	friend std::istream& operator>>(std::istream& in, ProgrammingLanguage& current);
 	friend std::ostream& operator<<(std::ostream& out, const ProgrammingLanguage& current);

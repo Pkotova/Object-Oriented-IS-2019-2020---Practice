@@ -47,7 +47,7 @@ ProgrammingLanguage::ProgrammingLanguage(const char* newName, size_t newYear, co
 	this->setTime(newTime);
 }
 
-ProgrammingLanguage& ProgrammingLanguage::operator=(const ProgrammingLanguage other)
+ProgrammingLanguage& ProgrammingLanguage::operator=(const ProgrammingLanguage& other)
 {
 	if (this != &other )
 	{
@@ -140,11 +140,11 @@ size_t ProgrammingLanguage::getTime() const
 {
 	return this->time;
 }
-
 void ProgrammingLanguage::edit(const char* newCode)
 {
 	setHelloWorld(newCode);
 }
+
 
 std::istream& operator>>(std::istream& in, ProgrammingLanguage& current)
 {
