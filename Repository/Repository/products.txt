@@ -1,0 +1,9 @@
+Milk
+10
+1.2
+Bread
+5
+1
+Butter
+12
+3.4
