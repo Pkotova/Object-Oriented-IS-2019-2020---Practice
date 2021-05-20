@@ -92,6 +92,7 @@ void Character::print() const
 	std::cout << "- Sex: " << this->sex << std::endl;
 	std::cout << "- Score: " << getScore() << std::endl;
 }
+
 bool Character::operator==(const Character& other)const
 {
 	return strcmp(this->name, other.name) == 0;

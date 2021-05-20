@@ -1,17 +1,11 @@
 #include <iostream>
-#include"Ruler.h"
-#include"Advisor.h"
-#include"Servant.h"
-#include"House.h"
-#include"Knight.h"
-#include"Comparators.h"
-#include <string>
-
+#include"LoginView.h"
+#include"UserManagementView.h"
 char m = 'm', f = 'f'; // using for genders
 
 int main()
 {
-	Ruler eddard("Eddard Stark", 40, m, 5, true),
+	/*Ruler eddard("Eddard Stark", 40, m, 5, true),
 		robbert("Robert Baratheon", 43, m, 3, true),
 		rhaegar("Rhaegar Targaryen", 30, m, 1, true),
 		tywin("Tywin Lannister", 60, m, 3, true),
@@ -63,5 +57,19 @@ int main()
 
 	std::cout << "Your best character is: ";
 	custom.sort(byAge);
-	custom.showTeam();
+	custom.showTeam();*/
+
+	LoginView lv;
+	lv.run();
+	if (AutheticationService::getLoggedUser() != nullptr && 
+		AutheticationService::getLoggedUser()->getIsAdmin() == 1)
+	{
+	//	AdminView adminView;
+	//	adminView.run();
+	}
+	else 
+	{
+		UserManagementView umv;
+		umv.run();
+	}
 }

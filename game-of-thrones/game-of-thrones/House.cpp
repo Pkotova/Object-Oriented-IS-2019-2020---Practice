@@ -11,7 +11,7 @@ void House::copy(const House& other)
 	this->team = new Character* [this->capacity];
 	for (int i = 0; i < size; i++)
 	{
-		team[i] = other.team[i]->clone();
+		team[i] = other.team[i]->clone();// deep copy
 	}
 }
 
